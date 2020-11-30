@@ -38,6 +38,7 @@
       "react/prop-types": "off",
       "import/prefer-default-export": "off",
       "prettier/prettier": "error",
+      "import/no-duplicates": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
@@ -45,7 +46,8 @@
           "ts": "never",
           "tsx": "never"
         }
-      ]
+      ],
+      "camelcase": "off"
     },
     "settings": {
       "import/resolver": {
